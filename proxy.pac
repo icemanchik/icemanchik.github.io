@@ -3,6 +3,7 @@ function FindProxyForURL(url, host) {
 
   if (shExpMatch(host, "*.youtube.*") ||
       shExpMatch(host, "*instagram.*") ||
+      shExpMatch(host, "*pathofexile.*") ||
       shExpMatch(host, "chatgpt.com") ||
       shExpMatch(url, "*://*.googlevideo.com/*") ||
       shExpMatch(host, "gemini.google.com")) { // Добавлены строки
