@@ -6,7 +6,7 @@ function FindProxyForURL(url, host) {
       shExpMatch(host, "*pathofexile.*") ||
       shExpMatch(host, "chatgpt.com") ||
       shExpMatch(host, "grok.com") ||
-      shExpMatch(host, "x.com") ||
+      shExpMatch(host, "x.com*") ||
       shExpMatch(url, "*://*.googlevideo.com/*") ||
       shExpMatch(host, "gemini.google.com")) { // Добавлены строки
     return proxy;
